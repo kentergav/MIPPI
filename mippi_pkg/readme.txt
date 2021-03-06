@@ -1,4 +1,4 @@
-##Mutation Impact on Protein-Protein Interaction
+Mutation Impact on Protein-Protein Interaction
 optional arguments:
   -h, --help     show this help message and exit
   -i INPUTFILE   input interaction table path
