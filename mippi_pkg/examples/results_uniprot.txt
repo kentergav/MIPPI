@@ -1,0 +1,4 @@
+affected protein	partner protein	variant	pred class	pred score	error msg
+P97767	Q62232	S486P	decreasing	0.393681	.
+Q9UIA0	P01100	A9T	no effect	0.657649	.
+Q06708	P53950	L329T	disrupting	0.381412	.

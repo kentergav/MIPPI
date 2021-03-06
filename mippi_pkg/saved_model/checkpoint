@@ -1,0 +1,2 @@
+model_checkpoint_path: "bestAcc.h54"
+all_model_checkpoint_paths: "bestAcc.h54"
