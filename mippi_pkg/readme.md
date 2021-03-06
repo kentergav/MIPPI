@@ -1,15 +1,20 @@
-#Mutation Impact on Protein-Protein Interaction
+## Mutation Impact on Protein-Protein Interaction standalone package
+
+### Requirements
+* tensorflow 2.0+
+* BLAST+ executables (https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
+* UNIREF90 (https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz)
 
 optional arguments:  
-> >  -h, --help     show this help message and exit  
-> >  -i INPUTFILE   input interaction table path  
-> >  -o OUTPUTFILE  output file path  
-> >  -bin BIN       psiblast bin folder path  
-> >  -db DB         psiblast search database path, recommand UNIREF90  
-> >  -id            with -id, uniprot ID in inputfile, instead of fasta  
-> >  -notmp         with -notmp, delete all intermediate file in /tmp folder,  
-                  including fasta, PSSM and blast output file  
-
+|argument|description|
+|:-------|:----------|
+|-h, --help|show this help message and exit|
+|-i INPUTFILE|input interaction table path|
+|-o OUTPUTFILE|output file path|
+|-bin BIN|psiblast path, ${bin/psiblast}|
+|-db DB|psiblast search database path, recommand UNIREF90|
+|-id|with -id, uniprot ID in inputfile, instead of fasta|
+|-notmp|with -notmp, delete all intermediate file in /tmp folder, including fasta, PSSM and blast output file|
 
 eg:  
 
