@@ -1,4 +1,4 @@
-# MIPPI
+# Mutation Impact on Protein-Protein Interaction (MIPPI)
 
 a deep transformer based neural network to predict mutation impact on protein-protein interaction.
 
