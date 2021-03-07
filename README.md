@@ -3,7 +3,7 @@
 a deep transformer based neural network to predict mutation impact on protein-protein interaction.
 
 * mippi_pkg -> Mutation Impact on Protein-Protein Interaction **standalone package**
-* mippi -> source code of preprocessing and training
+* mippi -> **source code** of preprocessing and training
 
 
 ## Requirements
