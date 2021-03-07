@@ -20,7 +20,7 @@ optional arguments:
 &nbsp;
 
 
-input file format (detail example and result file in [mippi_pkg/examples](https://github.com/kentergav/MIPPI/tree/master/mippi_pkg/examples)):  
+input file format (example and result file details in [mippi_pkg/examples](https://github.com/kentergav/MIPPI/tree/master/mippi_pkg/examples)):  
 |affected protein reference FASTA|partner protein reference FASTA|mutation annotation|
 |:-------|:----------|:------------|
 
