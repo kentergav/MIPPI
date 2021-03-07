@@ -2,8 +2,7 @@
 
 ### Requirements
 * python 3.7+
-* tensorflow 2.0+
-* numpy, tqdm
+* tensorflow 2.0+, numpy
 * BLAST+ executables (https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
 * UNIREF90 (https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz)
 
