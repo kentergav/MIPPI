@@ -24,7 +24,7 @@ def main():
     parser = argparse.ArgumentParser(description='Mutation Impact on Protein-Protein Interaction')
     parser.add_argument('-i',dest='inputfile' , type=pathlib.Path, help='input interaction table path', required=True)
     parser.add_argument('-o',dest='outputfile' , type=pathlib.Path, help='output file path', required=True)
-    parser.add_argument('-bin',dest='bin' , type=pathlib.Path, help='psiblast bin folder path', required=True)
+    parser.add_argument('-bin',dest='bin' , type=pathlib.Path, help='psiblast bin folder path, ${bin/psiblast}', required=True)
     parser.add_argument('-db',dest='db' , type=pathlib.Path, help='psiblast search database path, recommand UNIREF90', required=True)
     parser.add_argument('-id',dest='id', action='store_true', help='with -id, uniprot ID in inputfile, instead of fasta')
     parser.add_argument('-notmp',dest='notmp', action='store_true', help='with -notmp, delete all intermediate file in /tmp folder, including fasta, PSSM and blast output file')
