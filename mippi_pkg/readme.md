@@ -17,6 +17,8 @@ optional arguments:
 |-id|with -id, uniprot ID in inputfile, instead of fasta|
 |-notmp|with -notmp, delete all intermediate file in /tmp folder, including fasta, PSSM and blast output file|
 
+&nbsp;
+
 
 input file format (detail example and result file in [mippi_pkg/examples](https://github.com/kentergav/MIPPI/tree/master/mippi_pkg/examples)):  
 |affected protein reference FASTA|partner protein reference FASTA|mutation annotation|
