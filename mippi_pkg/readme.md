@@ -33,7 +33,7 @@ or
 
 eg:  
 
-cd {$mippi_pkg_path}
+cd {$mippi_pkg_path}  
 (directly use sequence input: )  
 python main.py -i ./examples/eg_seq.txt -o ./examples/results_seq1.txt -bin <psiblast_path> -db <psiblast_search_database_path> -notmp  
 (use UNIPROT AC as input: )  
