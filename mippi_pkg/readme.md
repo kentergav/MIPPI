@@ -17,8 +17,23 @@ optional arguments:
 |-id|with -id, uniprot ID in inputfile, instead of fasta|
 |-notmp|with -notmp, delete all intermediate file in /tmp folder, including fasta, PSSM and blast output file|
 
+
+input file format (detail example and result file in [mippi_pkg/examples](https://github.com/kentergav/MIPPI/tree/master/mippi_pkg/examples)):  
+|affected protein reference FASTA|partner protein reference FASTA|mutation annotation|
+|:-------|:----------|:------------|
+
+or
+
+|affected protein uniprotAC|partner protein uniprotAC|mutation annotation|
+|:-------|:----------|:------------|
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 eg:  
 
+cd {$mippi_pkg_path}
 (directly use sequence input: )  
 python main.py -i ./examples/eg_seq.txt -o ./examples/results_seq1.txt -bin <psiblast_path> -db <psiblast_search_database_path> -notmp  
 (use UNIPROT AC as input: )  
