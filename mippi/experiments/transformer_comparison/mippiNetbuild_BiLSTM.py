@@ -277,9 +277,9 @@ def build_model():
     mut1 = layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(mut1)
     mut0 = layers.Dense(64)(mut0)
     mut1 = layers.Dense(64)(mut1)
-    par0 = layers.Bidirectional(layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(par0))
-    par0 = layers.Bidirectional(layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(par0))
-    par0 = layers.Bidirectional(layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(par0))
+    par0 = layers.Bidirectional(layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True))(par0)
+    par0 = layers.Bidirectional(layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True))(par0)
+    par0 = layers.Bidirectional(layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True))(par0)
     par0 = layers.Dense(64)(par0)
 
 #         mut0 = self.trans_block_mut4(mut0, mut0_mask)
