@@ -273,14 +273,10 @@ def build_model():
     par0 = trans_block_par3(par0, par0_mask)
     '''
 
-    mut0 = layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(mut0)
-    mut1 = layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(mut1)
-    mut0 = layers.Dense(64)(mut0)
-    mut1 = layers.Dense(64)(mut1)
-    par0 = layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(par0)
-    par0 = layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(par0)
-    par0 = layers.LSTM(8, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(par0)
-    par0 = layers.Dense(64)(par0)
+    mut0 = layers.LSTM(64, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(mut0)
+    mut1 = layers.LSTM(64, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(mut1)
+    par0 = layers.LSTM(64, activation='tanh', recurrent_activation='sigmoid', use_bias=True, return_sequences=True)(par0)
+
 
 #         mut0 = self.trans_block_mut4(mut0, mut0_mask)
 #         mut1 = self.trans_block_mut4(mut1, mut1_mask)
