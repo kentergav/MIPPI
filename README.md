@@ -14,3 +14,6 @@ a deep transformer based neural network to predict mutation impact on protein-pr
 * python 3.7+
 * tensorflow 2.0+
 * numpy, pandas
+
+## Cite as
+Liu, Z., Qian, W., Cai, W., Song, W., Wang, W., Maharjan, D. T., ... & Lin, G. N. Inferring the Effects of Protein Variants on Protein–protein Interactions with Interpretable Transformer Representations. Research. DOI:10.34133/research.0219
